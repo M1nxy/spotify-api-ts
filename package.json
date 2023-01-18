@@ -1,0 +1,24 @@
+{
+  "name": "spotify-api-ts",
+  "version": "0.0.1",
+  "description": "A typescript wrapper around Spotify's v1 web api",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "nodemon --exec vite-node ./src/index.ts"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "@types/node": "^18.11.18",
+    "typescript": "latest"
+  },
+  "keywords": [
+    "typescript",
+    "spotify",
+    "wrapper",
+    "api",
+    "web",
+    "service"
+  ]
+}

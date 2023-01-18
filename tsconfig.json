@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "removeComments": false,
+        "alwaysStrict": false,
+        "pretty": true,
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "lib": [
+          "ESNext",
+          "dom"
+        ],
+        "sourceMap": true,
+        "inlineSources": true,
+        "declaration": true,
+        "declarationMap": true,
+        "outDir": "dist",
+        "incremental": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "baseUrl": "./",
+        "rootDir": "src",
+        "paths": {
+        }
+    },
+    "include": ["src/*.ts", "src/**/*.ts"]
+}
